@@ -43,9 +43,17 @@ while robot.experiment_supervisor.step(robot.timestep) != -1:
     robot.experiment_supervisor.getTime()
 
     # Stops the robot after the robot moves a distance of 1.5 meters
-    if robot.experiment_supervisor.getTime() > 1.85:
-        robot.stop()
+    if robot.experiment_supervisor.getTime() > 2.25:
+        # robot.stop()
+        
         break
+    
+    if robot.experiment_supervisor.getTime() > 2.25:
+        robot.set_right_motor_velocity(18)
+        robot.set_left_motor_velocity(1)
+        
+    
+    
 
 
 
