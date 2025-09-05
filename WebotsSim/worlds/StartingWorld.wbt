@@ -25,6 +25,102 @@ Floor {
   tileSize 2 2
 }
 HamBot {
-  translation 0 0 0.04
+  hidden position_0_0 92.43679629791629
+  hidden position_0_1 98.69074315618052
+  hidden position_0_2 -70.42250797781804
+  hidden position2_0_2 5.518037202372699
+  hidden position3_0_2 -233.1853452027741
+  hidden position_0_3 4.849159743116021
+  hidden position2_0_3 1.370202298207108
+  hidden position3_0_3 39.652724528045816
+  hidden linearVelocity_0 -6.650377176190852e-10 -1.1241075725121931e-09 9.129182601615295e-10
+  hidden angularVelocity_0 1.2663012434846885e-08 -8.078591651110983e-09 -1.1426747345029712e-09
+  hidden translation_1 0.01165552213836687 0 0.014854610951083381
+  hidden rotation_1 0.6181260894345582 0.6186185158944163 -0.48500646320737867 4.045380140552676
+  hidden linearVelocity_1 -1.5542498108672698e-07 1.198296239943164e-07 1.129574211944373e-11
+  hidden angularVelocity_1 1.9022998925526786e-08 -6.622037065798629e-10 -7.947613423716911e-10
+  hidden translation_2 0.011567087911784126 0 0.015194131688121133
+  hidden rotation_2 -0.6224339665122208 -0.6229298248166566 0.4738505995414096 2.25595597642248
+  hidden linearVelocity_2 1.5475500786399365e-07 -1.2104676355706445e-07 3.49998863224954e-10
+  hidden angularVelocity_2 8.026704382849202e-09 -1.4225986291331379e-08 3.7198217582632713e-10
+  hidden rotation_8 0.6679484309270587 0.7412774910363163 0.06597404720785473 4.897640719706542
+  hidden linearVelocity_8 -2.5677909812230092e-11 -2.696489860967062e-10 1.9327800569569062e-09
+  hidden angularVelocity_8 2.2192428661222494 0.24100601530055743 0.00546576346438142
+  hidden rotation_9 -0.14902710080031928 -0.9290453520321341 -0.3386231786138385 4.613396055923412
+  hidden linearVelocity_9 -2.4736610626969382e-11 -1.7760053869615385e-11 6.976465360157111e-11
+  hidden angularVelocity_9 1.6293614760056127e-09 -2.2694131685036578e-09 -0.00470276799423634
+  translation -2.2350724985894703 -2.302438266087997 0.03279986890011487
+  rotation -0.006940518988414402 -0.0038784595419913367 0.9999683928743711 -2.2313307670832154
   controller "AsadbekNematov_lab1_task1"
+}
+DEF Obstacle_0 Obstacle {
+  translation 0 2.5 0.25
+  rotation 0 0 1 -1.57
+  size 0.01 5 0.5
+}
+DEF Obstacle_1 Obstacle {
+  translation 0 -2.5 0.25
+  rotation 0 0 1 -1.57
+  name "Obstacle(1)"
+  size 0.01 5 0.5
+}
+DEF Obstacle_2 Obstacle {
+  translation 2.5 0 0.25
+  rotation 0 0 1 3.14
+  name "Obstacle(2)"
+  size 0.01 5 0.5
+}
+DEF Obstacle_3 Obstacle {
+  translation -2.5 0 0.25
+  rotation 0 0 1 3.14
+  name "Obstacle(3)"
+  size 0.01 5 0.5
+}
+DEF Obstacle_4 Obstacle {
+  translation 0.5 -1.5 0.25
+  rotation 0 0 1 -1.57
+  name "Obstacle(4)"
+  size 0.01 4 0.5
+}
+DEF Obstacle_5 Obstacle {
+  translation -1.5 -1 0.25
+  rotation 0 0 1 3.14
+  name "Obstacle(5)"
+  size 0.01 1 0.5
+}
+DEF Obstacle_6 Obstacle {
+  translation 0.5 -0.5 0.25
+  rotation 0 0 1 -1.57
+  name "Obstacle(6)"
+  size 0.01 2 0.5
+}
+DEF Obstacle_7 Obstacle {
+  translation -0.5 0 0.25
+  rotation 0 0 1 3.14
+  name "Obstacle(7)"
+  size 0.01 1 0.5
+}
+DEF Obstacle_8 Obstacle {
+  translation -1.5 0.5 0.25
+  rotation 0 0 1 -1.57
+  name "Obstacle(8)"
+  size 0.01 2 0.5
+}
+DEF Obstacle_9 Obstacle {
+  translation 1.5 0.5 0.25
+  rotation 0 0 1 -1.57
+  name "Obstacle(9)"
+  size 0.01 2 0.5
+}
+DEF Obstacle_10 Obstacle {
+  translation 0.5 1 0.25
+  rotation 0 0 1 3.14
+  name "Obstacle(10)"
+  size 0.01 1 0.5
+}
+DEF Obstacle_11 Obstacle {
+  translation 0.25 1.5 0.25
+  rotation 0 0 1 -1.57
+  name "Obstacle(11)"
+  size 0.01 2.5 0.5
 }
